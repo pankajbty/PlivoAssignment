@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="UI Framework" duration-ms="83136" started-at="2018-12-20T16:46:24Z" finished-at="2018-12-20T16:47:48Z">
+    <groups>
+    </groups>
+    <test name="ChromeTests" duration-ms="83136" started-at="2018-12-20T16:46:24Z" finished-at="2018-12-20T16:47:48Z">
+      <class name="com.plivo.tests.home.LoginPageTest">
+        <test-method status="PASS" signature="setupBrowser(java.lang.String)[pri:0, instance:com.plivo.tests.home.LoginPageTest@19f99ea]" name="setupBrowser" is-config="true" duration-ms="4926" started-at="2018-12-20T16:46:24Z" finished-at="2018-12-20T16:46:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="test_login()[pri:0, instance:com.plivo.tests.home.LoginPageTest@19f99ea]" name="test_login" duration-ms="75512" started-at="2018-12-20T16:46:29Z" finished-at="2018-12-20T16:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.plivo.tests.home.LoginPageTest@19f99ea]" name="afterTest" is-config="true" duration-ms="2680" started-at="2018-12-20T16:47:45Z" finished-at="2018-12-20T16:47:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.plivo.tests.home.LoginPageTest -->
+    </test> <!-- ChromeTests -->
+  </suite> <!-- UI Framework -->
+</testng-results>

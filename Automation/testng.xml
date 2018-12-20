@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="UI Framework">
+	<test name="ChromeTests">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="com.plivo.tests.home.LoginPageTest" />
+		</classes>
+	</test>
+</suite>
